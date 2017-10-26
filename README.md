@@ -11,7 +11,7 @@ https://github.com/mauriciovancine/GRASS-GIS-Landscape-Metrics/tree/master/scrip
 
 - The script which calculates patch number in zonal statistics depends on LSmetrics outputs of pids (patch id info); 
 - LSmetrics gui works well for a single raster, but fot running the option for a sequence of rasters with a string common pattern in raster file name, you must use the symbol "*": 
-for example, if the file names' coomon pattern is all that starts with BR, put: BR *;
+for example, if the file names' common pattern is all that starts with BR, put: BR *;
 if it is all that has "forest" in the middle of file name, put: * forest *;
 if it's all that ends with forest_albers, put: * forest_albers
 

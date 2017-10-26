@@ -7,5 +7,5 @@ https://github.com/LEEClab/LS_METRICS
 ### Original scripts
 https://github.com/mauriciovancine/GRASS-GIS-Landscape-Metrics/tree/master/scripts
 
-### The script aiming on calculate patch number in zonal statistics depends on LSmetrics outputs of pids (patch id info). 
-### LSmetrics gui works well for a single raster, but apparently is not running the option for a sequence of rasters with a string common pattern in raster file name.
+####The script aiming on calculate patch number in zonal statistics depends on LSmetrics outputs of pids (patch id info). 
+###LSmetrics gui works well for a single raster, but apparently is not running the option for a sequence of rasters with a string common pattern in raster file name.

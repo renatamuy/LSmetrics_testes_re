@@ -13,7 +13,7 @@ https://github.com/mauriciovancine/GRASS-GIS-Landscape-Metrics/tree/master/scrip
 - LSmetrics gui works well for a single raster, but fot running the option for a sequence of rasters with a string common pattern in raster file name, you must use the symbol "*": 
 for example, if the file names' common pattern is all that starts with BR, put: BR *;
 if it is all that has "forest" in the middle of file name, put: * forest *;
-if it's all that ends with forest_albers, put: * forest_albers
+if it's all that ends with forest_albers, type: * forest_albers in the white box of LSmetrics (Pattern).
 
 #### Some important tips for running python script without copying and pasting code
 

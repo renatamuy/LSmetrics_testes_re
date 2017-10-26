@@ -22,11 +22,11 @@ if it's all that ends with forest_albers, type: * forest_albers in the white box
 - Remove the command python from inner script. If you let it there, the code will stop, since from the auxiliary code you already got into python inside GRASS command line. However, if you could call a python code from GRASS command line without calling python first, then the auxiliary code would change. But I don´t know how to start a large script differently
 - The auxiliary starter code has five lines
 
-###python # calls python in GRASS 
-###import os # allows changing directory
-###import grass.script as grass # allows importing scripts
-###os.chdir('F:/__data/') # tells where is the script
-###import zonal_stats_test_pc8 # imports the script and make your life easier
+- python # calls python in GRASS 
+- import os # allows changing directory
+- import grass.script as grass # allows importing scripts
+- os.chdir('F:/__data/') # set directory where the script was saved
+- import zonal_stats_test_pc8 # imports the script and make your life easier
 
 - After that, if everything is correctly written in the script, you can wait for the results and rest.
 

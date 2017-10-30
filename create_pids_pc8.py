@@ -40,6 +40,10 @@ maps = ['BR_2001_euca_9', 'BR_2002_euca_9', 'BR_2003_euca_9', 'BR_2004_euca_9']
 for i in maps:
     grass.run_command('r.in.gdal', input = i+'.tif', output = i, overwrite = True)
 
+# Check imported rasters
+grass.run_command('g.list', type = 'raster')
+
+# Open LSmetrics
 lsmetrics_dir = r'F:/__data/muylaert/LS_METRICS-master-october/LS_METRICS-master/_LSMetrics_v1_0_0/'
 
 os.chdir(lsmetrics_dir)
